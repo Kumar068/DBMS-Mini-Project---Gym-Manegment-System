@@ -1,0 +1,33 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: white;
+}
+
+body img {
+    align-items: left;
+}
+
+body {
+    background: linear-gradient(135deg, rgba(255, 0, 179, 0.671), rgba(0, 0, 255, 0.692)), url(images/906377.png);
+    position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body h1 {
+    background-color: rgba(128, 128, 128, 0.295);
+    text-decoration: cornsilk;
+    color: khaki;
+    text-underline-position: auto;
+    font-size: 70px;
+}
+
+body p {
+    margin: 50px;
+    color: gold;
+    font-size: large;
+}
+
+span {
+    color: rgb(255, 0, 0);
+}

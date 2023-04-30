@@ -1,0 +1,98 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="./Services_files/style.css">
+    <link rel="stylesheet" type="text/css" href="./Services_files/font-awesome.min.css">
+
+</head>
+
+<body style="background-color:rgb(255, 254, 254);">
+    <center><img src="images/logo1.png" width="80" height="80"></center>
+    <section id="services">
+        <div class="services-info">
+            <h1>Our <span id="blue">Services</span></h1>
+            <p>What we Provide</p>
+        </div>
+        <div class="services-row">
+            <div class="services-box">
+                <i class="fa fa-suitcase" aria-hidden="true"></i>
+                <h2>Body</h2>
+                <p> Train to get stronger, not bigger
+                    <br>The best part about Saiyans is that they don't just train to become huge.They train to be stronger and are more focused on endurance training.
+                </p>
+            </div>
+
+            <div class="services-box">
+                <i class="fa fa-suitcase" aria-hidden="true"></i>
+                <h2>INTENSITY</h2>
+                <p> Find the Intensity If you want to go hard, you have to disregard pain. That is where High-Intensity Interval Training (HIIT) comes into play.</p>
+            </div>
+
+            <div class="services-box">
+                <i class="fa fa-suitcase" aria-hidden="true"></i>
+                <h2>Trainer</h2>
+                <p>Getting a personal trainer can seem expensive and pointless when you have all the information you need online, but there is no substitute for motivation. </p>
+            </div>
+
+            <div class="services-box">
+                <i class="fa fa-suitcase" aria-hidden="true"></i>
+                <h2>Partner</h2>
+                <p> This is precisely what you need in the gym. Your gym partner shouldn’t be just someone that spots you; he should be someone that you compete with every day.</p>
+            </div>
+
+            <div class="services-box">
+                <i class="fa fa-suitcase" aria-hidden="true"></i>
+                <h2>Diet</h2>
+                <p> The ideal ratio for your diet should be 2:2:1 of protein, carbohydrates, and fats respectively.</p>
+            </div>
+
+            <div class="services-box">
+                <i class="fa fa-suitcase" aria-hidden="true"></i>
+                <h2>Rest</h2>
+                <p>Getting seven to eight hours of deep, uninterrupted sleep can do wonders for your body. You produce growth (muscle) hormones while you sleep . </p>
+            </div>
+
+        </div>
+    </section>
+    <!-- Code injected by live-server -->
+    <script type="text/javascript">
+        // <![CDATA[  <-- For SVG support
+        if ('WebSocket' in window) {
+            (function() {
+                function refreshCSS() {
+                    var sheets = [].slice.call(document.getElementsByTagName("link"));
+                    var head = document.getElementsByTagName("head")[0];
+                    for (var i = 0; i < sheets.length; ++i) {
+                        var elem = sheets[i];
+                        var parent = elem.parentElement || head;
+                        parent.removeChild(elem);
+                        var rel = elem.rel;
+                        if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                            var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                            elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+                        }
+                        parent.appendChild(elem);
+                    }
+                }
+                var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+                var address = protocol + window.location.host + window.location.pathname + '/ws';
+                var socket = new WebSocket(address);
+                socket.onmessage = function(msg) {
+                    if (msg.data == 'reload') window.location.reload();
+                    else if (msg.data == 'refreshcss') refreshCSS();
+                };
+                if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+                    console.log('Live reload enabled.');
+                    sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+                }
+            })();
+        } else {
+            console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+        }
+        // ]]>
+    </script>
+
+</body>
+
+</html>
